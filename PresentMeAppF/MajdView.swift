@@ -4,7 +4,7 @@ import SwiftUI
 struct MajdView: View {
     var body: some View {
         VStack {
-            Image("K")
+            Image("majd")
                 .resizable()
                 .frame (width: 100,height: 100 )
                 .imageScale(.small)
@@ -24,6 +24,8 @@ struct MajdView: View {
     }
 }
 
-#Preview {
-    MajdView()
+struct MajdView_Previews: PreviewProvider {
+    static var previews: some View {
+        MajdView()
+    }
 }
